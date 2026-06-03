@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 72" role="img" aria-label="Redbird Network">
+  <g fill="none" stroke="#0d2236" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="25" cy="29" r="6"/>
+    <circle cx="10" cy="14" r="3.5"/>
+    <circle cx="42" cy="14" r="3.5"/>
+    <circle cx="10" cy="46" r="3.5"/>
+    <circle cx="42" cy="46" r="3.5"/>
+    <path d="M21 25l-9-9M29 25l9-9M21 33l-9 11M29 33l9 11"/>
+  </g>
+  <text x="60" y="34" font-family="Archivo, Arial, sans-serif" font-size="25" font-weight="800" fill="#0d2236">Redbird</text>
+  <text x="61" y="56" font-family="Archivo, Arial, sans-serif" font-size="13" font-weight="600" fill="#235e8c" letter-spacing="3.5">NETWORK</text>
+</svg>

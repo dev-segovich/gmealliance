@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 72" role="img" aria-label="ATEX Group">
+  <g fill="none" stroke="#0d2236" stroke-width="3" stroke-linejoin="round">
+    <path d="M8 52V20l14-8 14 8v32"/>
+    <path d="M8 52h28"/>
+    <path d="M16 52V34h12v18"/>
+  </g>
+  <text x="52" y="34" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="800" fill="#0d2236" letter-spacing="1.5">ATEX</text>
+  <text x="53" y="55" font-family="Archivo, Arial, sans-serif" font-size="12" font-weight="600" fill="#6a7682" letter-spacing="3.5">GROUP &middot; DEVELOPMENT</text>
+</svg>

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /partials/
+Disallow: /inquiry.php
+
+Sitemap: https://gmealliance.com/sitemap.xml

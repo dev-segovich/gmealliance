@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-label="GridLink">
+  <g fill="none" stroke="#0d2236" stroke-width="3" stroke-linejoin="round">
+    <rect x="8" y="12" width="14" height="14" rx="2"/>
+    <rect x="28" y="12" width="14" height="14" rx="2"/>
+    <rect x="8" y="32" width="14" height="14" rx="2"/>
+    <rect x="28" y="32" width="14" height="14" rx="2"/>
+    <path d="M22 19h6M22 39h6M15 26v6M35 26v6" stroke="#235e8c"/>
+  </g>
+  <text x="58" y="36" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="800" fill="#0d2236">Grid<tspan fill="#235e8c">Link</tspan></text>
+  <text x="59" y="55" font-family="Archivo, Arial, sans-serif" font-size="11" font-weight="600" fill="#6a7682" letter-spacing="2.5">POWER &middot; FIBER &middot; INFRASTRUCTURE</text>
+</svg>
