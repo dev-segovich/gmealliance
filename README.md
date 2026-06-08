@@ -57,7 +57,11 @@ Almost everything is driven by **`partials/data.php`**:
 - **Site-wide info** (email, phone, address, LinkedIn) → edit `SITE`.
 
 ### Placeholders to replace before launch
-- [ ] Operating-company **logos** (`assets/img/companies/*.svg`) and **URLs** (`data.php`)
+- [x] Operating-company **logos** wired up (`assets/img/companies/*.webp`) and **URLs** set in `data.php`
+- [ ] **GridLink** website URL — pending (`data.php` → `gridlink` › `url`)
+- [ ] **GME Supply** standard (color) logo — the supplied file is a white/reverse version,
+      currently shown on a dark tile so it's visible; a normal-color logo would match the others
+- [ ] **Express** transparent logo (optional) — supplied file has a dark background baked in
 - [ ] **Leadership** names, bios, photos, LinkedIn (`LEADERS` in `data.php` + photos)
 - [ ] **Projects** with real, approved details (`PROJECTS`)
 - [ ] **Licensed photography** wherever you see a hatched "image placeholder"

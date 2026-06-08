@@ -69,56 +69,59 @@ const PLATFORMS = [
 const COMPANIES = [
     'gme-supply' => [
         'name'    => 'GME Supply',
-        'logo'    => 'gme-supply.svg',
-        'url'     => '',
+        'logo'    => 'gme-supply-white-alt.webp',
+        'url'     => 'https://www.gmesupply.com/',
+        'dark'    => true,
         'tags'    => ['Industrial', 'Safety Supply'],
         'short'   => 'Industrial and safety supply solutions supporting infrastructure, utility, logistics, and construction operations.',
         'focus'   => ['Industrial products', 'Safety equipment', 'Utility support products', 'Infrastructure procurement'],
     ],
     'express-distribution' => [
         'name'    => 'Express Distribution',
-        'logo'    => 'express-distribution.svg',
-        'url'     => '',
+        'logo'    => 'express.webp',
+        'url'     => 'https://expressdistr.com/',
+        'fill'    => true,
         'tags'    => ['Mobility', 'Distribution'],
         'short'   => 'Distribution platform for connected mobility and safety products across the RV, trailer, and transportation industries.',
         'focus'   => ['Dealer distribution', 'OEM integration', 'Connected mobility', 'Aftermarket supply'],
     ],
     'roadtech' => [
         'name'    => 'RoadTech',
-        'logo'    => 'roadtech.svg',
-        'url'     => '',
+        'logo'    => 'roadtech.webp',
+        'url'     => 'https://www.roadtechtpms.com/',
+        'dark'    => true,
         'tags'    => ['IoT', 'Mobility'],
         'short'   => 'Connected mobility and safety technologies — TPMS and IoT monitoring — for the RV, trailer, and transportation industries.',
         'focus'   => ['TPMS', 'IoT monitoring', 'OEM integrations', 'Trailer safety systems'],
     ],
     'atex-group' => [
         'name'    => 'ATEX Group',
-        'logo'    => 'atex-group.svg',
-        'url'     => '',
+        'logo'    => 'Atex.webp',
+        'url'     => 'https://atexgrp.com/',
         'tags'    => ['Development', 'Construction'],
         'short'   => 'Development and construction platform supporting multifamily, workforce housing, and infrastructure-related projects.',
         'focus'   => ['Multifamily', 'Workforce housing', 'Site development', 'Construction'],
     ],
     'gridlink' => [
         'name'    => 'GridLink',
-        'logo'    => 'gridlink.svg',
-        'url'     => '',
+        'logo'    => 'GridLink.webp',
+        'url'     => '', // TODO: GridLink website URL pending
         'tags'    => ['Power', 'Fiber'],
         'short'   => 'Power, fiber, and infrastructure platform supporting resilient connectivity and industrial growth.',
         'focus'   => ['Utility partnerships', 'Power-ready sites', 'Fiber infrastructure', 'Industrial infrastructure'],
     ],
     'redbird-network' => [
         'name'    => 'Redbird Network',
-        'logo'    => 'redbird-network.svg',
-        'url'     => '',
+        'logo'    => 'redbirdnetwork.webp',
+        'url'     => 'https://redbirdnetwork.com/',
         'tags'    => ['Telecom', 'Connectivity'],
         'short'   => 'Connectivity and telecommunications infrastructure initiative focused on resilient communications and regional connectivity.',
         'focus'   => ['Regional connectivity', 'Resilient communications', 'Telecom infrastructure', 'Carrier partnerships'],
     ],
     'mar-ston' => [
         'name'    => 'Mar-Ston Foundation',
-        'logo'    => 'mar-ston.svg',
-        'url'     => 'https://mar-ston.com',
+        'logo'    => 'marston.webp',
+        'url'     => 'https://mar-ston.org/',
         'tags'    => ['Nonprofit', 'Community'],
         'short'   => 'Community-focused nonprofit initiative supporting workforce development, wellness, and community revitalization.',
         'focus'   => ['Workforce development', 'Community wellness', 'Revitalization', 'Local partnerships'],
@@ -174,5 +177,5 @@ function gme_icon(string $name): string {
         'doc'      => '<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h6"/>',
     ];
     $body = $p[$name] ?? $p['arrow'];
-    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' . $body . '</svg>';
+    return '<svg class="gme-ic" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' . $body . '</svg>';
 }

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 72" role="img" aria-label="GME Supply">
-  <g fill="none" stroke="#0d2236" stroke-width="3" stroke-linejoin="round">
-    <path d="M28 8l18 7v13c0 10-7.2 17-18 20-10.8-3-18-10-18-20V15z"/>
-    <path d="M20 27l5 5 11-11"/>
-  </g>
-  <text x="64" y="34" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="800" fill="#0d2236" letter-spacing="0.5">GME Supply</text>
-  <text x="65" y="53" font-family="Archivo, Arial, sans-serif" font-size="11" font-weight="600" fill="#6a7682" letter-spacing="2.5">INDUSTRIAL &amp; SAFETY</text>
-</svg>

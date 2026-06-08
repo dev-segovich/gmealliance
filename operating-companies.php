@@ -19,7 +19,7 @@ include __DIR__ . '/partials/header.php';
     <?php foreach (COMPANIES as $slug => $c): ?>
       <div class="company-row reveal" id="<?= $slug ?>">
         <div class="company-row__brand">
-          <div class="logo-box"><img src="assets/img/companies/<?= $c['logo'] ?>" alt="<?= htmlspecialchars($c['name']) ?> logo" loading="lazy" /></div>
+          <div class="logo-box<?= !empty($c['dark']) ? ' on-dark' : '' ?><?= !empty($c['fill']) ? ' fill' : '' ?>"><img src="assets/img/companies/<?= $c['logo'] ?>" alt="<?= htmlspecialchars($c['name']) ?> logo" loading="lazy" /></div>
           <?php if (!empty($c['url'])): ?>
             <a class="btn btn-outline" style="width:100%;justify-content:center;" href="<?= htmlspecialchars($c['url']) ?>" target="_blank" rel="noopener">Visit website <?= gme_icon('arrow') ?></a>
           <?php else: ?>

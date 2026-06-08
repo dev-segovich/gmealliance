@@ -166,6 +166,10 @@ h3, .h3 { font-size: 1.35rem; }
 .btn:hover { transform: translateY(-1px); }
 .btn .ic { width: 16px; height: 16px; }
 
+/* Inline icons size to the text they sit next to; decorative icons are sized
+   by their own container rules below, which override these presentation attrs. */
+.gme-ic { flex: none; }
+
 .btn-primary { background: var(--blue-600); color: var(--white); border-color: var(--blue-600); }
 .btn-primary:hover { background: var(--navy-800); border-color: var(--navy-800); color: var(--white); }
 
@@ -432,6 +436,10 @@ body.nav-open { overflow: hidden; }
   margin-bottom: 18px;
 }
 .company-card .logo-wrap img { max-height: 46px; width: auto; }
+.company-card .logo-wrap.on-dark { background: var(--navy-900); border-radius: 8px; padding: 8px 18px; justify-content: center; }
+.company-card .logo-wrap.on-dark img { max-height: 38px; }
+/* "fill": logo with heavy internal padding scaled up to fill the holder */
+.company-card .logo-wrap.fill img { max-height: 64px; }
 .company-card h3 { font-size: 1.12rem; margin-bottom: 8px; }
 .company-card p { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 18px; flex: 1; }
 .company-card .company-link { font-family: var(--font-head); font-weight: 600; font-size: 0.88rem; color: var(--blue-600); display: inline-flex; align-items: center; gap: 6px; }
@@ -460,6 +468,9 @@ body.nav-open { overflow: hidden; }
   margin-bottom: 18px;
 }
 .company-row__brand .logo-box img { max-height: 64px; }
+.company-row__brand .logo-box.on-dark { background: var(--navy-900); border-color: var(--navy-800); }
+.company-row__brand .logo-box.fill { padding: 14px; }
+.company-row__brand .logo-box.fill img { max-height: 100px; }
 .company-row h3 { font-size: 1.6rem; margin-bottom: 14px; }
 .company-row .focus-cols { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 28px; margin: 22px 0; }
 .company-row .focus-cols li { position: relative; padding-left: 20px; color: var(--gray-700); }

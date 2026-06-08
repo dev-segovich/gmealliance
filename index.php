@@ -105,7 +105,7 @@ include __DIR__ . '/partials/header.php';
     <div class="company-grid">
       <?php foreach (COMPANIES as $slug => $c): ?>
         <article class="company-card reveal">
-          <div class="logo-wrap"><img src="assets/img/companies/<?= $c['logo'] ?>" alt="<?= htmlspecialchars($c['name']) ?> logo" loading="lazy" /></div>
+          <div class="logo-wrap<?= !empty($c['dark']) ? ' on-dark' : '' ?><?= !empty($c['fill']) ? ' fill' : '' ?>"><img src="assets/img/companies/<?= $c['logo'] ?>" alt="<?= htmlspecialchars($c['name']) ?> logo" loading="lazy" /></div>
           <h3><?= htmlspecialchars($c['name']) ?></h3>
           <p><?= htmlspecialchars($c['short']) ?></p>
           <?php if (!empty($c['url'])): ?>
