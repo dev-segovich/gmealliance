@@ -32,9 +32,11 @@ include __DIR__ . '/partials/header.php';
           <a class="btn btn-outline" href="operating-companies.php">See the companies <?= gme_icon('arrow') ?></a>
         </div>
         <div class="media">
-          <div class="media-ph" style="min-height:340px;">
-            <span><?= htmlspecialchars($p['title']) ?><br>imagery</span>
-          </div>
+          <?php if (!empty($p['image'])): ?>
+            <div class="media-photo"><img src="<?= $p['image'] ?>" alt="<?= htmlspecialchars($p['title']) ?>" loading="lazy" /></div>
+          <?php else: ?>
+            <div class="media-ph" style="min-height:340px;"><span><?= htmlspecialchars($p['title']) ?><br>imagery</span></div>
+          <?php endif; ?>
           <div class="platform-card__icon" style="position:relative;margin-top:-32px;margin-left:24px;box-shadow:var(--shadow-md);"><?= gme_icon($p['icon']) ?></div>
         </div>
       </div>

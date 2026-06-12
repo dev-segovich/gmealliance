@@ -36,6 +36,7 @@ const PLATFORMS = [
         'companies' => 'GridLink · Redbird Network',
         'summary'   => 'Power-ready sites, fiber, and resilient communications infrastructure built in partnership with utilities, co-ops, and regional carriers.',
         'icon'      => 'grid',
+        'image'     => 'assets/img/content/platform-infrastructure.png',
         'focus'     => ['Power-ready infrastructure', 'Fiber infrastructure', 'Utility partnerships', 'Grid modernization', 'Resilient connectivity'],
     ],
     'mobility' => [
@@ -43,6 +44,7 @@ const PLATFORMS = [
         'companies' => 'Express Distribution · RoadTech TPMS',
         'summary'   => 'Connected mobility and safety technologies for the RV, trailer, and transportation industries, from sensors to OEM and dealer distribution.',
         'icon'      => 'signal',
+        'image'     => 'assets/img/content/platform-mobility.png',
         'focus'     => ['RV technology', 'Trailer safety systems', 'TPMS', 'IoT monitoring', 'OEM integration', 'Dealer distribution'],
     ],
     'development' => [
@@ -50,6 +52,7 @@ const PLATFORMS = [
         'companies' => 'ATEX Group',
         'summary'   => 'Multifamily, workforce housing, and site development that supports community growth and infrastructure-related construction.',
         'icon'      => 'building',
+        'image'     => 'assets/img/content/platform-development.jpg',
         'focus'     => ['Multifamily housing', 'Workforce housing', 'Construction', 'Site development', 'Community growth'],
     ],
     'supply' => [
@@ -57,6 +60,7 @@ const PLATFORMS = [
         'companies' => 'GME Supply',
         'summary'   => 'Industrial products, safety equipment, and procurement that keep infrastructure, utility, and construction operations running.',
         'icon'      => 'shield',
+        'image'     => 'assets/img/content/platform-supply.png',
         'focus'     => ['Industrial products', 'Safety equipment', 'Utility support products', 'Infrastructure procurement', 'Logistics support'],
     ],
 ];
@@ -150,12 +154,12 @@ const LEADERS = [
 
 /** Projects & initiatives — placeholder entries. TODO: replace with real projects. */
 const PROJECTS = [
-    ['title' => 'Power-Ready Site Development',     'category' => 'Infrastructure', 'platform' => 'GridLink',             'desc' => 'Identifying and developing power-ready sites with utility and co-op partners to support industrial growth and resilient connectivity.'],
-    ['title' => 'Regional Fiber & Connectivity',    'category' => 'Telecom',        'platform' => 'Redbird Network',      'desc' => 'Extending resilient communications and regional connectivity infrastructure in underserved markets.'],
-    ['title' => 'Connected Mobility Rollout',       'category' => 'Mobility / IoT', 'platform' => 'RoadTech · Express',   'desc' => 'Scaling TPMS and IoT monitoring across OEM and dealer channels in the RV and trailer industries.'],
-    ['title' => 'Workforce Housing Development',    'category' => 'Development',     'platform' => 'ATEX Group',           'desc' => 'Advancing multifamily and workforce housing projects that support community growth near employment centers.'],
-    ['title' => 'Infrastructure Supply Program',    'category' => 'Industrial',     'platform' => 'GME Supply',           'desc' => 'Procurement and logistics support keeping utility, construction, and infrastructure operations supplied and safe.'],
-    ['title' => 'Community Revitalization',         'category' => 'Community',      'platform' => 'Mar-Ston Foundation',  'desc' => 'Workforce development, wellness, and revitalization programs that strengthen the communities we operate in.', 'foundation' => true],
+    ['title' => 'Power-Ready Site Development',     'category' => 'Infrastructure', 'platform' => 'GridLink',             'desc' => 'Identifying and developing power-ready sites with utility and co-op partners to support industrial growth and resilient connectivity.', 'image' => 'assets/img/content/project-power-ready-site.png'],
+    ['title' => 'Regional Fiber & Connectivity',    'category' => 'Telecom',        'platform' => 'Redbird Network',      'desc' => 'Extending resilient communications and regional connectivity infrastructure in underserved markets.', 'image' => 'assets/img/content/project-regional-fiber.png'],
+    ['title' => 'Connected Mobility Rollout',       'category' => 'Mobility / IoT', 'platform' => 'RoadTech · Express',   'desc' => 'Scaling TPMS and IoT monitoring across OEM and dealer channels in the RV and trailer industries.', 'image' => 'assets/img/content/project-connected-mobility.png'],
+    ['title' => 'Workforce Housing Development',    'category' => 'Development',     'platform' => 'ATEX Group',           'desc' => 'Advancing multifamily and workforce housing projects that support community growth near employment centers.', 'image' => 'assets/img/content/project-workforce-housing.webp'],
+    ['title' => 'Infrastructure Supply Program',    'category' => 'Industrial',     'platform' => 'GME Supply',           'desc' => 'Procurement and logistics support keeping utility, construction, and infrastructure operations supplied and safe.', 'image' => 'assets/img/content/project-infrastructure-supply.jpg'],
+    ['title' => 'Community Revitalization',         'category' => 'Community',      'platform' => 'Mar-Ston Foundation',  'desc' => 'Workforce development, wellness, and revitalization programs that strengthen the communities we operate in.', 'image' => 'assets/img/content/project-community-revitalization.jpg', 'foundation' => true],
 ];
 
 /** Tiny inline-SVG icon set used across pages. */

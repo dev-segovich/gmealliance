@@ -19,7 +19,11 @@ include __DIR__ . '/partials/header.php';
     <div class="project-grid">
       <?php foreach (PROJECTS as $pr): ?>
         <article class="project-card reveal <?= !empty($pr['foundation']) ? 'foundation' : '' ?>">
-          <div class="media-ph"><span><?= htmlspecialchars($pr['category']) ?></span></div>
+          <?php if (!empty($pr['image'])): ?>
+            <div class="project-media"><img src="<?= $pr['image'] ?>" alt="<?= htmlspecialchars($pr['title']) ?>" loading="lazy" /></div>
+          <?php else: ?>
+            <div class="media-ph"><span><?= htmlspecialchars($pr['category']) ?></span></div>
+          <?php endif; ?>
           <div class="body">
             <span class="tag"><?= htmlspecialchars($pr['category']) ?></span>
             <h3><?= htmlspecialchars($pr['title']) ?></h3>
@@ -49,9 +53,7 @@ include __DIR__ . '/partials/header.php';
       <a class="btn btn-light" href="https://mar-ston.com" target="_blank" rel="noopener">Visit mar-ston.com <?= gme_icon('arrow') ?></a>
     </div>
     <div class="media reveal d1">
-      <div class="media-ph" style="min-height:300px;background:repeating-linear-gradient(135deg,#16385B 0 12px,#122f49 12px 24px);border-color:rgba(255,255,255,0.12);">
-        <span style="color:var(--steel-300);">Community / workforce imagery</span>
-      </div>
+      <div class="media-photo"><img src="assets/img/content/foundation-marston.jpg" alt="Mar-Ston Foundation — community initiatives" loading="lazy" /></div>
     </div>
   </div>
 </section>

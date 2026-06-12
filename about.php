@@ -30,9 +30,7 @@ include __DIR__ . '/partials/header.php';
         long-term partner — focused on resilient infrastructure, connectivity, and industrial growth.</p>
     </div>
     <div class="media reveal d1">
-      <div class="media-ph" style="min-height:380px;">
-        <span>Infrastructure / industrial imagery<br>(transmission, fiber, construction, logistics)</span>
-      </div>
+      <div class="media-photo"><img src="assets/img/content/about.png" alt="GME Alliance — infrastructure and industrial operations" loading="lazy" /></div>
     </div>
   </div>
 </section>

@@ -584,6 +584,12 @@ body.nav-open { overflow: hidden; }
   pointer-events: none;
 }
 
+/* Real photography dropped into a content slot */
+.media-photo { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); }
+.media-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.project-card .project-media { overflow: hidden; }
+.project-card .project-media img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+
 /* ==========================================================================
    Leadership
    ========================================================================== */
