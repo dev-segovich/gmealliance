@@ -433,6 +433,7 @@ body.nav-open { overflow: hidden; }
   height: 64px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 18px;
 }
 .company-card .logo-wrap img { max-height: 46px; width: auto; }
@@ -440,6 +441,9 @@ body.nav-open { overflow: hidden; }
 .company-card .logo-wrap.on-dark img { max-height: 38px; }
 /* "fill": logo with heavy internal padding scaled up to fill the holder */
 .company-card .logo-wrap.fill img { max-height: 64px; }
+/* dark tile + enlarged: wide/short logos scaled up inside the tile without breaking it */
+.company-card .logo-wrap.on-dark.fill { padding: 3px 22px; }
+.company-card .logo-wrap.on-dark.fill img { max-height: 58px; }
 .company-card h3 { font-size: 1.12rem; margin-bottom: 8px; }
 .company-card p { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 18px; flex: 1; }
 .company-card .company-link { font-family: var(--font-head); font-weight: 600; font-size: 0.88rem; color: var(--blue-600); display: inline-flex; align-items: center; gap: 6px; }
